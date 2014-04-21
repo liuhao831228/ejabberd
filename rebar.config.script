@@ -57,6 +57,7 @@ Deps = [{p1_cache_tab, ".*", {git, "git://github.com/processone/cache_tab"}},
         {p1_stringprep, ".*", {git, "git://github.com/processone/stringprep"}},
         {p1_xml, ".*", {git, "git://github.com/processone/xml"}},
         {p1_yaml, ".*", {git, "git://github.com/processone/p1_yaml"}},
+	{eredis, ".*", {git, "git://github.com/wooga/eredis.git", "master"}},
         {xmlrpc, ".*", {git, "git://github.com/rds13/xmlrpc"}}],
 
 ConfigureCmd = fun(Pkg, Flags) ->
